@@ -104,5 +104,22 @@ footer {
     header a {
         padding: 5px 10px;
     }
+
+    .footer-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid-item ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer-grid-item li {
+        display: inline-block;
+        font-weight: 300;
+        padding-right: 20px;
+        text-align: center;
+    }
     
 }
