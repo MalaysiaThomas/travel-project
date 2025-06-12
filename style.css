@@ -165,5 +165,9 @@ footer {
         padding-right: 20px;
         text-align: center;
     }
+
+    .grid-2-column {
+        grid-template-columns: 1fr;
+    }
     
 }
