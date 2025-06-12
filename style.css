@@ -45,6 +45,10 @@ header a:hover {
 }
 
 footer {
+    background-image: linear-gradient(rgba(34, 34, 1, 0.193), rgba(2, 15, 23, 0.916), rgba(1, 13, 28, 0.972)), url(media/footer-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #012e55;
     color: white;
     border-radius: 0 0 20px 20px;
