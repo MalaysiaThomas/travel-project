@@ -44,6 +44,10 @@ header a:hover {
     color: white;
 }
 
+section {
+    background-color: #f0f0f0;
+}
+
 footer {
     background-image: linear-gradient(rgba(34, 34, 1, 0.193), rgba(2, 15, 23, 0.916), rgba(1, 13, 28, 0.972)), url(media/footer-image.jpg);
     background-size: cover;
@@ -58,6 +62,42 @@ footer {
 .main-container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.grid-2-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 40px 50px;
+}
+
+.grid-2-column img {
+    width: 100%;
+    height: auto;
+}
+
+
+.flex-column-container h3 {
+    margin: 0;
+    color: rgba(39, 32, 68, 0.288);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.flex-column-container h2 {
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.flex-column-container p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .footer-grid-container {
