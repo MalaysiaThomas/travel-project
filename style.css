@@ -134,8 +134,10 @@ footer h3 {
 }
 
 .embed {
-    background-color: black;
+    width: 100%;
+    aspect-ratio: 1 / 1;
     height: 150px;
+    overflow: hidden;
 }
 
 .card-container {
@@ -266,5 +268,10 @@ footer h3 {
 @media (max-width: 990px) {
     .card-grid {
         grid-template-columns: 1fr;
+    }
+
+    .embed{
+       aspect-ratio: 16 / 9;
+       overflow: visible;
     }
 }
